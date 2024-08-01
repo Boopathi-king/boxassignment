@@ -15,16 +15,18 @@ body {
 }
 
 h1 {
-    font-size: 2em;
-    color: #333;
+    font-size: 1.9em;
+    font-weight: lighter;
+    color: #666;
 }
 
 h1 span {
     font-weight: bold;
+    color: #333;
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #666;
 }
 
@@ -40,7 +42,7 @@ p {
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    width: 180px;
+    width: 300px;
     padding: 20px;
     text-align: left;
     position: relative;
@@ -57,19 +59,19 @@ p {
 }
 
 .card:nth-child(1)::before {
-    background-color: #00acc1; /* Teal */
+    background-color: #03bfd8; 
 }
 
 .card:nth-child(2)::before {
-    background-color: #ef5350; /* Red */
+    background-color: #ef5350; 
 }
 
 .card:nth-child(3)::before {
-    background-color: #42a5f5; /* Blue */
+    background-color: #42a5f5; 
 }
 
 .card:nth-child(4)::before {
-    background-color: #ffca28; /* Yellow */
+    background-color: #ffca28; 
 }
 
 .card-content {
